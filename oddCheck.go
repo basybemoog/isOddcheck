@@ -8,8 +8,8 @@ import (
 )
 
 type Value struct {
-	value int
-	isodd bool
+	value int  `json:"value"`
+	isodd bool `json:"isodd"`
 }
 
 var values []Value
